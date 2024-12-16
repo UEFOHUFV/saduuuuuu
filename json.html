@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Create Object from JSON Stringe</h2>
+<p id="demo"></p>
+
+<script>
+let text = '{"emloyees":[' +
+'{"firstname":"jhohn","lastname":"Doe" },' +
+'{"firstname":"jalal","lastname":"sarah" },' +
+'{"firstname":"Abdul","lastname":"wali" }]}';
+const obj = JSON.parse(text)
+document.getElementById("demo").innerHTML =
+obj.employees[0].firstname + " " + obj.employees[0].lastname;
+
+
+</script>
+</body>
+</html>
+
+
+<script>
+
+var firstname, lastname = "fahad ehtesham"
+
+document.write("my name is  ") 
+document.write(firstname, lastname)
+
+document.write("my name is ")
+document.write(firstname, lastname)
+
+
+
+    
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
